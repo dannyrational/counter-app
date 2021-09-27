@@ -5,34 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Counter App | Dannyrational</title>
     <link href="assets/css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/css/all.css">
 </head>
 
-<body class="flex items-center h-screen bg-violet-300 p-3 bg-no-repeat bg-cover bg-center"
+<body class="flex items-center h-screen p-3 bg-center bg-no-repeat bg-cover bg-violet-300"
     style="background-image: url('assets/images/counter-bg-01.png');">
 
     <!-- Tailwind Classes -->
-    <div class="hidden text-green-400 text-white text-red-500"></div>
+    <div class="hidden text-white text-red-500 text-green-400"></div>
 
     <!-- Counter -->
     <div class="container mx-auto py-8 rounded w-[640px] backdrop-blur-2xl bg-white/10 shadow-2xl">
-        <div class="counter-div text-white text-center p-3">
-            <h1 class="text-3xl font-bold mb-4">Counter App</h1>
-            <span class="count block text-3xl font-medium">0</span>
+        <div class="p-3 text-center text-white counter-div">
+            <h1 class="mb-4 text-3xl font-bold">Counter App</h1>
+            <span class="block text-3xl font-medium count">0</span>
             <hr class="my-8 text-gray-300">
-            <div class="buttons space-x-4">
-                <button class="subtract py-2 px-3 bg-red-500 rounded font-medium">
-                    <i class="subtract fad fa-minus inline-block mr-1"></i>
+            <div class="space-x-4 buttons">
+                <button class="px-3 py-2 font-medium bg-red-500 rounded subtract">
+                    <i class="inline-block mr-1 subtract fad fa-minus"></i>
                     Subtract
                 </button>
-                <button class="reset py-2 px-3 bg-gray-200 text-black rounded font-medium">
-                    <i class="reset fad fa-recycle inline-block mr-1"></i>
+                <button class="px-3 py-2 font-medium text-black bg-gray-200 rounded reset">
+                    <i class="inline-block mr-1 reset fad fa-recycle"></i>
                     Reset
                 </button>
-                <button class="add py-2 px-3 bg-green-500 rounded font-medium">
-                    <i class="add fad fa-plus inline-block mr-1"></i>
+                <button class="px-3 py-2 font-medium bg-green-500 rounded add">
+                    <i class="inline-block mr-1 add fad fa-plus"></i>
                     Add
                 </button>
             </div>
